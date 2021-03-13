@@ -5,3 +5,6 @@
     font-family: 'Indie- Flower', cursive;
 }
 
+.menu-item-selected{
+    background-color: lightgrey;
+}

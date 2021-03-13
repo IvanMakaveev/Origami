@@ -4,7 +4,7 @@ import NavigationItem from './NavigationItem';
 const Header = () => {
     const listItems = [];
     for (let i = 1; i <= 11; i++) {
-        listItems.push(<NavigationItem>Going to {i}</NavigationItem>)
+        listItems.push(<NavigationItem key={i}>Going to {i}</NavigationItem>)
     }
 
     return (
